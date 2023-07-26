@@ -1,0 +1,117 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <LangVersion>latest</LangVersion>
+	  <Platforms>AnyCPU;x64;x86</Platforms>
+	  <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtentReports" Version="4.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+    <PackageReference Include="SpecFlow" Version="3.9.74" />
+    <PackageReference Include="SpecFlow.Actions.Configuration" Version="0.1.350" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
+    <PackageReference Include="nunit" Version="3.13.2" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+    <PackageReference Include="FluentAssertions" Version="6.2.0" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Drivers\" />
+    <Folder Include="TestResults\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="D-Stability">
+      <HintPath>..\..\D-GEO-Suite-Stability-GUI-Automated-Tests\D-Stability\bin\Debug\D-Stability.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Core.Resolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Instrumentation.Qt">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Instrumentation.Qt.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.PDFReport">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.PDFReport.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Cef.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.CefHost">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.CefHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.ChromeWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Delphi.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.FirefoxWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Flex.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Java.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Msaa.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Qt.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.RawText.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Sap.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Uia.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Win32.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.WinForms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <HintPath>..\..\..\Program Files (x86)\Ranorex\Studio\Bin\x64\Ranorex.Plugin.Wpf.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="specflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

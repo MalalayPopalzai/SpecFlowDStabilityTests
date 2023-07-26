@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = SpecFlowDStabilityTests
+build_property.ProjectDir = C:\checkouts\Specflow\SpecFlowDStabilityTests\

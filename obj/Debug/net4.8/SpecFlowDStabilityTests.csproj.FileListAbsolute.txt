@@ -1,0 +1,7 @@
+C:\checkouts\Specflow\SpecFlowDStabilityTests\obj\Debug\net4.8\SpecFlowDStabilityTests.csproj.AssemblyReference.cache
+C:\checkouts\Specflow\SpecFlowDStabilityTests\obj\Debug\net4.8\SpecFlowDStabilityTests.csproj.SuggestedBindingRedirects.cache
+C:\checkouts\Specflow\SpecFlowDStabilityTests\obj\Debug\net4.8\SpecFlowDStabilityTests.dll.config
+C:\checkouts\Specflow\SpecFlowDStabilityTests\obj\Debug\net4.8\SpecFlowDStabilityTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\checkouts\Specflow\SpecFlowDStabilityTests\obj\Debug\net4.8\SpecFlowDStabilityTests.AssemblyInfoInputs.cache
+C:\checkouts\Specflow\SpecFlowDStabilityTests\obj\Debug\net4.8\SpecFlowDStabilityTests.AssemblyInfo.cs
+C:\checkouts\Specflow\SpecFlowDStabilityTests\obj\Debug\net4.8\SpecFlowDStabilityTests.csproj.CoreCompileInputs.cache
