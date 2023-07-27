@@ -95,6 +95,122 @@ this.ScenarioInitialize(scenarioInfo);
 #line 9
  testRunner.When("I open new project in D-GEO Suite D-Stability", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
+#line 10
+ testRunner.Then("the selection button has the name \'Scenario 1 - Stage 1\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                            "ScenarioName",
+                            "ScenarioIndex"});
+                table1.AddRow(new string[] {
+                            "Scenario 1",
+                            "1"});
+#line 11
+ testRunner.When("I change the scenario:", ((string)(null)), table1, "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "SelectionName",
+                            "Notes",
+                            "PropertyPanelCaption"});
+                table2.AddRow(new string[] {
+                            "Scenario 1",
+                            "",
+                            "Scenario"});
+#line 14
+ testRunner.Then("there are the following properties:", ((string)(null)), table2, "Then ");
+#line hidden
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                            "SelectionName",
+                            "Notes"});
+                table3.AddRow(new string[] {
+                            "Test scenario 1",
+                            "Note scenario 1"});
+#line 17
+ testRunner.When("I modifythere the following properties:", ((string)(null)), table3, "When ");
+#line hidden
+#line 20
+ testRunner.Then("the selection button has the name \'Test scenario 1 - Stage 1\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                            "ScenarioName",
+                            "ScenarioIndex"});
+                table4.AddRow(new string[] {
+                            "Test scenario 1",
+                            "1"});
+#line 21
+ testRunner.When("I change the scenario:", ((string)(null)), table4, "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
+                            "SelectionName",
+                            "Notes",
+                            "PropertyPanelCaption"});
+                table5.AddRow(new string[] {
+                            "Test scenario 1",
+                            "Note scenario 1",
+                            "Scenario"});
+#line 24
+ testRunner.Then("there are the following properties:", ((string)(null)), table5, "Then ");
+#line hidden
+#line 27
+ testRunner.When("I undo the geometry changes", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 28
+ testRunner.And("I undo the geometry changes", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 29
+ testRunner.Then("the selection button has the name \'Scenario 1 - Stage 1\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
+                            "ScenarioName",
+                            "ScenarioIndex"});
+                table6.AddRow(new string[] {
+                            "Scenario 1",
+                            "1"});
+#line 30
+ testRunner.When("I change the scenario:", ((string)(null)), table6, "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
+                            "SelectionName",
+                            "Notes",
+                            "PropertyPanelCaption"});
+                table7.AddRow(new string[] {
+                            "Scenario 1",
+                            "",
+                            "Scenario"});
+#line 33
+ testRunner.Then("there are the following properties:", ((string)(null)), table7, "Then ");
+#line hidden
+#line 36
+ testRunner.When("I redo the geometry changes", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 37
+ testRunner.And("I redo the geometry changes", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 38
+ testRunner.Then("the selection button has the name \'Test scenario 1 - Stage 1\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+                TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
+                            "ScenarioName",
+                            "ScenarioIndex"});
+                table8.AddRow(new string[] {
+                            "Test scenario 1",
+                            "1"});
+#line 39
+ testRunner.When("I change the scenario:", ((string)(null)), table8, "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
+                            "SelectionName",
+                            "Notes",
+                            "PropertyPanelCaption"});
+                table9.AddRow(new string[] {
+                            "Test scenario 1",
+                            "Note scenario 1",
+                            "Scenario"});
+#line 42
+    testRunner.Then("there are the following properties:", ((string)(null)), table9, "Then ");
+#line hidden
+#line 45
+ testRunner.Then("I save the scenario \'my first test\' in the folder \'TestFiles\\FunctionalityTests\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

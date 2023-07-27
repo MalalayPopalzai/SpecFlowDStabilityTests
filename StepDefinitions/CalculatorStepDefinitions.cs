@@ -18,7 +18,7 @@ namespace SpecFlowDStabilityTests.StepDefinitions
             D_Stability.Recordings.StagesAndScenarios.EvaluateScenarioSelectionButton.Start();
         }
 
-        [When(@"I change the scenario")]
+        [When(@"I change the scenario:")]
         public void WhenIChangeTheScenario(Table table)
         {
             D_Stability.Recordings.StagesAndScenarios.EditScenario.repo.ScenarioName = table.Rows[0]["ScenarioName"];
@@ -26,7 +26,7 @@ namespace SpecFlowDStabilityTests.StepDefinitions
             D_Stability.Recordings.StagesAndScenarios.EditScenario.Start();
         }
 
-        [Then(@"there are the following properties")]
+        [Then(@"there are the following properties:")]
         public void ThenThereAreTheFollowingProperties(Table table)
         {
             D_Stability.Recordings.StagesAndScenarios.EvaluateSelectionProperties.Instance.SelectionName = table.Rows[0]["SelectionName"];
@@ -35,23 +35,22 @@ namespace SpecFlowDStabilityTests.StepDefinitions
             D_Stability.Recordings.StagesAndScenarios.EvaluateSelectionProperties.Start();
         }
 
-        [When(@"I modifythere the following properties")]
+        [When(@"I modifythere the following properties:")]
         public void WhenIModifythereTheFollowingProperties(Table table)
         {
             D_Stability.Recordings.StagesAndScenarios.ModifySelectionProperties.Instance.SelectionName = table.Rows[0]["SelectionName"];
             D_Stability.Recordings.StagesAndScenarios.ModifySelectionProperties.Instance.Notes = table.Rows[0]["Notes"];
             D_Stability.Recordings.StagesAndScenarios.ModifySelectionProperties.Start();
-
         }
 
-        [When(@"I undo the gemetry changes")]
-        public void WhenIUndoTheGemetryChanges()
+        [When(@"I undo the geometry changes")]
+        public void WhenIUndoTheGeometryChanges()
         {
             D_Stability.Recordings.Geometry.UndoGeometry.Start();
         }
 
-        [When(@"I redo the gemetry changes")]
-        public void WhenIRedoTheGemetryChanges()
+        [When(@"I redo the geometry changes")]
+        public void WhenIRedoTheGeometryChanges()
         {
 
             D_Stability.Recordings.Geometry.RedoGeometry.Start();
