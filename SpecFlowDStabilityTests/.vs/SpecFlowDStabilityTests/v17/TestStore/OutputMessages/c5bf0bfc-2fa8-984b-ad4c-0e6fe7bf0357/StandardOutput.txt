@@ -1,0 +1,133 @@
+When I open new project in D-GEO Suite D-Stability
+[2023/08/02 11:20:32.562][Debug  ][Logger]: Console logger starting.
+[2023/08/02 11:20:32.690][Info   ][Application]: Run application with file name from variable $AppPathVar in normal mode. Return value bound to $StartAutProcessIDVar.
+[2023/08/02 11:20:32.857][Warn   ][Automation]: The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.
+[2023/08/02 11:20:33.767][Info   ][Wait]: Waiting 30s to exist. Associated repository item: 'DStability'
+[2023/08/02 11:20:39.382][Info   ][Wait]: Waiting 30s to exist. Associated repository item: 'DStability.NewProjectButton'
+[2023/08/02 11:20:41.138][Info   ][Mouse]: Mouse Left Click item 'DStability.NewProjectButton' at Center.
+[2023/08/02 11:20:42.861][Info   ][Invoke action]: For laptop screens: hide taskbar so all bottom row buttons are visible
+Invoking Maximize() on item 'DStability'.
+-> done: CalculatorStepDefinitions.GivenOpenNewProjectInD_GEOSuiteD_Stability() (10,6s)
+Then the selection button has the name 'Scenario 1 - Stage 1'
+[2023/08/02 11:20:42.879][Info   ][Validation]: Validating Exists on item 'DStability.ScenarioSelectionText'.
+[2023/08/02 11:20:42.990][Success][Validation]: Element for item 'ScenarioSelectionText' does exist.
+-> done: CalculatorStepDefinitions.ThenTheSelectionButtonHasTheName("Scenario 1 - Stage 1") (0,1s)
+When I change the scenario:
+  --- table step argument ---
+  | ScenarioName | ScenarioIndex |
+  | Scenario 1   | 1             |
+[2023/08/02 11:20:43.004][Info   ][Mouse]: Mouse Left Click item 'DStability.ScenarioTreeView.ScenarioTreeItem.ScenarioText.ScenarioActionButton' at Center.
+[2023/08/02 11:20:43.360][Info   ][Mouse]: Mouse Left Click item 'ContextMenu.EditScenario' at Center.
+-> done: CalculatorStepDefinitions.WhenIChangeTheScenario(<table>) (0,8s)
+Then there are the following properties:
+  --- table step argument ---
+  | SelectionName | Notes | PropertyPanelCaption |
+  | Scenario 1    |       | Scenario             |
+[2023/08/02 11:20:43.781][Info   ][Validation]: Validating AttributeEqual (Text=$PropertyPanelCaption) on item 'DStability.PropertyPanel.PropertyPanelTitle'.
+[2023/08/02 11:20:44.508][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.PropertyPanelTitle' does match the specified value.
+[2023/08/02 11:20:44.509][Info   ][Validation]: Validating AttributeEqual (Text=$SelectionName) on item 'DStability.PropertyPanel.LabelTextBox'.
+[2023/08/02 11:20:45.284][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.LabelTextBox' does match the specified value.
+[2023/08/02 11:20:45.284][Info   ][Validation]: Validating AttributeEqual (SelectionText=$Notes) on item 'DStability.PropertyPanel.NotesTextBox'.
+[2023/08/02 11:20:46.033][Success][Validation]: Attribute 'SelectionText' of element for item 'D_StabilityRepository.DStability.PropertyPanel.NotesTextBox' does match the specified value.
+-> done: CalculatorStepDefinitions.ThenThereAreTheFollowingProperties(<table>) (2,3s)
+When I modifythere the following properties:
+  --- table step argument ---
+  | SelectionName   | Notes           |
+  | Test scenario 1 | Note scenario 1 |
+[2023/08/02 11:20:46.036][Info   ][Set value]: Setting attribute Text to '$SelectionName' on item 'DStability.PropertyPanel.LabelTextBox'.
+[2023/08/02 11:20:46.791][Info   ][Keyboard]: Key sequence '{Return}' with focus on 'DStability.PropertyPanel.LabelTextBox'.
+[2023/08/02 11:20:47.671][Info   ][Set value]: Setting attribute Text to '$Notes' on item 'DStability.PropertyPanel.NotesTextBox'.
+[2023/08/02 11:20:48.504][Info   ][Keyboard]: Key sequence '' with focus on 'DStability.PropertyPanel.NotesTextBox'.
+[2023/08/02 11:20:49.287][Info   ][Mouse]: After changing Notes, select another control
+Mouse Left Click item 'DStability.PropertyPanel.LabelTextBox' at Center.
+-> done: CalculatorStepDefinitions.WhenIModifythereTheFollowingProperties(<table>) (4,1s)
+Then the selection button has the name 'Test scenario 1 - Stage 1'
+[2023/08/02 11:20:50.128][Info   ][Validation]: Validating Exists on item 'DStability.ScenarioSelectionText'.
+[2023/08/02 11:20:50.230][Success][Validation]: Element for item 'ScenarioSelectionText' does exist.
+-> done: CalculatorStepDefinitions.ThenTheSelectionButtonHasTheName("Test scenario 1 -...") (0,1s)
+When I change the scenario:
+  --- table step argument ---
+  | ScenarioName    | ScenarioIndex |
+  | Test scenario 1 | 1             |
+[2023/08/02 11:20:50.231][Info   ][Mouse]: Mouse Left Click item 'DStability.ScenarioTreeView.ScenarioTreeItem.ScenarioText.ScenarioActionButton' at Center.
+[2023/08/02 11:20:50.609][Info   ][Mouse]: Mouse Left Click item 'ContextMenu.EditScenario' at Center.
+-> done: CalculatorStepDefinitions.WhenIChangeTheScenario(<table>) (0,9s)
+Then there are the following properties:
+  --- table step argument ---
+  | SelectionName   | Notes           | PropertyPanelCaption |
+  | Test scenario 1 | Note scenario 1 | Scenario             |
+[2023/08/02 11:20:51.095][Info   ][Validation]: Validating AttributeEqual (Text=$PropertyPanelCaption) on item 'DStability.PropertyPanel.PropertyPanelTitle'.
+[2023/08/02 11:20:51.812][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.PropertyPanelTitle' does match the specified value.
+[2023/08/02 11:20:51.813][Info   ][Validation]: Validating AttributeEqual (Text=$SelectionName) on item 'DStability.PropertyPanel.LabelTextBox'.
+[2023/08/02 11:20:52.545][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.LabelTextBox' does match the specified value.
+[2023/08/02 11:20:52.545][Info   ][Validation]: Validating AttributeEqual (SelectionText=$Notes) on item 'DStability.PropertyPanel.NotesTextBox'.
+[2023/08/02 11:20:53.318][Success][Validation]: Attribute 'SelectionText' of element for item 'D_StabilityRepository.DStability.PropertyPanel.NotesTextBox' does match the specified value.
+-> done: CalculatorStepDefinitions.ThenThereAreTheFollowingProperties(<table>) (2,2s)
+When I undo the geometry changes
+[2023/08/02 11:20:53.321][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.GeometryTab' at Center.
+[2023/08/02 11:20:53.877][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.Buttons.Geometry.GeometryUndoButton' at Center.
+-> done: CalculatorStepDefinitions.WhenIUndoTheGeometryChanges() (1,0s)
+And I undo the geometry changes
+[2023/08/02 11:20:54.349][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.GeometryTab' at Center.
+[2023/08/02 11:20:54.732][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.Buttons.Geometry.GeometryUndoButton' at Center.
+-> done: CalculatorStepDefinitions.WhenIUndoTheGeometryChanges() (0,9s)
+Then the selection button has the name 'Scenario 1 - Stage 1'
+[2023/08/02 11:20:55.234][Info   ][Validation]: Validating Exists on item 'DStability.ScenarioSelectionText'.
+[2023/08/02 11:20:55.363][Success][Validation]: Element for item 'ScenarioSelectionText' does exist.
+-> done: CalculatorStepDefinitions.ThenTheSelectionButtonHasTheName("Scenario 1 - Stage 1") (0,1s)
+When I change the scenario:
+  --- table step argument ---
+  | ScenarioName | ScenarioIndex |
+  | Scenario 1   | 1             |
+[2023/08/02 11:20:55.365][Info   ][Mouse]: Mouse Left Click item 'DStability.ScenarioTreeView.ScenarioTreeItem.ScenarioText.ScenarioActionButton' at Center.
+[2023/08/02 11:20:55.725][Info   ][Mouse]: Mouse Left Click item 'ContextMenu.EditScenario' at Center.
+-> done: CalculatorStepDefinitions.WhenIChangeTheScenario(<table>) (0,8s)
+Then there are the following properties:
+  --- table step argument ---
+  | SelectionName | Notes | PropertyPanelCaption |
+  | Scenario 1    |       | Scenario             |
+[2023/08/02 11:20:56.146][Info   ][Validation]: Validating AttributeEqual (Text=$PropertyPanelCaption) on item 'DStability.PropertyPanel.PropertyPanelTitle'.
+[2023/08/02 11:20:56.851][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.PropertyPanelTitle' does match the specified value.
+[2023/08/02 11:20:56.852][Info   ][Validation]: Validating AttributeEqual (Text=$SelectionName) on item 'DStability.PropertyPanel.LabelTextBox'.
+[2023/08/02 11:20:57.649][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.LabelTextBox' does match the specified value.
+[2023/08/02 11:20:57.649][Info   ][Validation]: Validating AttributeEqual (SelectionText=$Notes) on item 'DStability.PropertyPanel.NotesTextBox'.
+[2023/08/02 11:20:58.500][Success][Validation]: Attribute 'SelectionText' of element for item 'D_StabilityRepository.DStability.PropertyPanel.NotesTextBox' does match the specified value.
+-> done: CalculatorStepDefinitions.ThenThereAreTheFollowingProperties(<table>) (2,4s)
+When I redo the geometry changes
+[2023/08/02 11:20:58.502][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.GeometryTab' at Center.
+[2023/08/02 11:20:58.876][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.Buttons.Geometry.GeometryRedoButton' at Center.
+-> done: CalculatorStepDefinitions.WhenIRedoTheGeometryChanges() (0,9s)
+And I redo the geometry changes
+[2023/08/02 11:20:59.371][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.GeometryTab' at Center.
+[2023/08/02 11:20:59.764][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.RibbonTabs.Buttons.Geometry.GeometryRedoButton' at Center.
+-> done: CalculatorStepDefinitions.WhenIRedoTheGeometryChanges() (0,9s)
+Then the selection button has the name 'Test scenario 1 - Stage 1'
+[2023/08/02 11:21:00.289][Info   ][Validation]: Validating Exists on item 'DStability.ScenarioSelectionText'.
+[2023/08/02 11:21:00.394][Success][Validation]: Element for item 'ScenarioSelectionText' does exist.
+-> done: CalculatorStepDefinitions.ThenTheSelectionButtonHasTheName("Test scenario 1 -...") (0,1s)
+When I change the scenario:
+  --- table step argument ---
+  | ScenarioName    | ScenarioIndex |
+  | Test scenario 1 | 1             |
+[2023/08/02 11:21:00.395][Info   ][Mouse]: Mouse Left Click item 'DStability.ScenarioTreeView.ScenarioTreeItem.ScenarioText.ScenarioActionButton' at Center.
+[2023/08/02 11:21:00.759][Info   ][Mouse]: Mouse Left Click item 'ContextMenu.EditScenario' at Center.
+-> done: CalculatorStepDefinitions.WhenIChangeTheScenario(<table>) (0,8s)
+Then there are the following properties:
+  --- table step argument ---
+  | SelectionName   | Notes           | PropertyPanelCaption |
+  | Test scenario 1 | Note scenario 1 | Scenario             |
+[2023/08/02 11:21:01.177][Info   ][Validation]: Validating AttributeEqual (Text=$PropertyPanelCaption) on item 'DStability.PropertyPanel.PropertyPanelTitle'.
+[2023/08/02 11:21:01.900][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.PropertyPanelTitle' does match the specified value.
+[2023/08/02 11:21:01.900][Info   ][Validation]: Validating AttributeEqual (Text=$SelectionName) on item 'DStability.PropertyPanel.LabelTextBox'.
+[2023/08/02 11:21:02.814][Success][Validation]: Attribute 'Text' of element for item 'D_StabilityRepository.DStability.PropertyPanel.LabelTextBox' does match the specified value.
+[2023/08/02 11:21:02.814][Info   ][Validation]: Validating AttributeEqual (SelectionText=$Notes) on item 'DStability.PropertyPanel.NotesTextBox'.
+[2023/08/02 11:21:03.610][Success][Validation]: Attribute 'SelectionText' of element for item 'D_StabilityRepository.DStability.PropertyPanel.NotesTextBox' does match the specified value.
+-> done: CalculatorStepDefinitions.ThenThereAreTheFollowingProperties(<table>) (2,4s)
+Then I save the scenario 'my first test' in the folder 'TestFiles\FunctionalityTests'
+[2023/08/02 11:21:03.615][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.FileTab' at Center.
+[2023/08/02 11:21:04.259][Info   ][Mouse]: Mouse Left Click item 'DStability.Ribbon.SaveAs' at Center.
+[2023/08/02 11:21:05.025][Info   ][Set value]: Setting attribute Text to '$filename' on item 'SaveProjectAs.FilenameCombobox'.
+[2023/08/02 11:21:06.042][Info   ][Mouse]: Mouse Left Click item 'SaveProjectAs.ButtonSave' at Center.
+[2023/08/02 11:21:09.524][Info   ][Mouse]: Button D_StabilityRepository.SaveProjectAsConfirmation.ButtonYes not found
+-> done: CalculatorStepDefinitions.ThenISaveTheScenarioInTheFolder("my first test", "TestFiles\Functio...") (5,9s)
+[2023/08/02 11:21:09.529][Info   ][Application]: Closing application containing item 'DStability'.

@@ -1,0 +1,8 @@
+{
+  "language": { "feature": "en" },
+  "bindingCulture": { "name": "en" },
+  "AppSettings": { "path": "C:\\Program Files (x86)\\Deltares\\D-GEO Suite\\D-Stability 2023.01\\bin\\D-Stability.exe" },
+  "CmdApp": { "path": "C:\\Windows\\SysWOW64\\cmd.exe" },
+  "TesResultDir": { "path": "..\\..\\..\\..\\TestResults" },
+  "TestReportCommand": { "command": "livingdoc test-assembly C:\\checkouts\\Specflow\\SpecFlowDStabilityTests\\bin\\x64\\Debug\\net48\\SpecFlowDStabilityTests.dll -t C:\\checkouts\\Specflow\\SpecFlowDStabilityTests\\bin\\x64\\Debug\\net48\\TestExecution.json" }
+}

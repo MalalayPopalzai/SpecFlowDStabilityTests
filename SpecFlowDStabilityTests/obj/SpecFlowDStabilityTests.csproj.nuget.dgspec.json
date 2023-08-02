@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\checkouts\\Specflow\\SpecFlowDStabilityTests\\SpecFlowDStabilityTests.csproj": {}
+  },
+  "projects": {
+    "C:\\checkouts\\Specflow\\SpecFlowDStabilityTests\\SpecFlowDStabilityTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\checkouts\\Specflow\\SpecFlowDStabilityTests\\SpecFlowDStabilityTests.csproj",
+        "projectName": "SpecFlowDStabilityTests",
+        "projectPath": "C:\\checkouts\\Specflow\\SpecFlowDStabilityTests\\SpecFlowDStabilityTests.csproj",
+        "packagesPath": "C:\\Users\\popalzai\\.nuget\\packages\\",
+        "outputPath": "C:\\checkouts\\Specflow\\SpecFlowDStabilityTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\popalzai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Actions.Configuration": {
+              "target": "Package",
+              "version": "[0.1.350, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

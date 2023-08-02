@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.2m"
+		durationms="369335"
+		type="root"
+		rid="276e55f4c7c3bc83"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="popalzai"
+		rxversion="10.5.3.0"
+		host="L03520"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="nl-NL"
+		screenresolution="3840x2294"
+		timestamp="2-8-2023 09:51:11"
+		timestampiso="2023-08-02T07:51:11"
+		endtime="2-8-2023 09:57:20"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.121"
+			timeRelativeToTestModuleStartTime="00:00.121"
+			timeWallClock="09:51:11"
+			time="00:00.121"
+			level="Info"
+			category="Application">
+			<message>
+				Run application with file name from variable $AppPathVar in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\General\StartAUT.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.387"
+			timeRelativeToTestModuleStartTime="00:00.387"
+			timeWallClock="09:51:11"
+			time="00:00.387"
+			level="Warn"
+			category="Automation">
+			<message>
+				The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\General\StartAUT.cs"
+				codeline="109"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.369"
+			timeRelativeToTestModuleStartTime="00:01.369"
+			timeWallClock="09:51:12"
+			time="00:01.369"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DGeoFlow.NewProjectButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//button[@automationid='NewProjectButton']"
+				itempath=".//button[@automationid='NewProjectButton']"
+				fullname="D_GeoFlowRepository.DGeoFlow.NewProjectButton"
+				id="0afb3a4129374976a8998c7af209e29f"
+				timeout="40000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\General\StartAUT.cs"
+				codeline="111"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.216"
+			timeRelativeToTestModuleStartTime="00:07.216"
+			timeWallClock="09:51:18"
+			time="00:07.216"
+			level="Info"
+			category="Invoke action">
+			<message>
+				For laptop screens: hide taskbar so all bottom row buttons are visible<br/>Invoking Maximize() on item 'DGeoFlow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']"
+				itempath="/form[@automationid='DGeoFlowWindow']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Self"
+				id="5462baee58ee4141853cfb9e24910558"
+				timeout="10000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\General\MaximizeApplication.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.191"
+			timeRelativeToTestModuleStartTime="00:09.191"
+			timeWallClock="09:51:20"
+			time="00:09.191"
+			level="Info"
+			category="User">
+			<message>
+				Screen: 176; 176 // Data: 12.761; 25.447
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\EditorCalibrator.cs"
+				codeline="56"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.308"
+			timeRelativeToTestModuleStartTime="00:09.308"
+			timeWallClock="09:51:20"
+			time="00:09.308"
+			level="Info"
+			category="User">
+			<message>
+				Screen: 1053; 558 // Data: 93.275; -18.374
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\EditorCalibrator.cs"
+				codeline="56"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.392"
+			timeRelativeToTestModuleStartTime="00:09.392"
+			timeWallClock="09:51:20"
+			time="00:09.392"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DGeoFlow.Ribbon.RibbonTabs.GeometryTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//menubar[@automationid='ActualRibbon']/list[@automationid='PART_RibbonTabControl']/text[@text='Geometry']"
+				itempath="text[@text='Geometry']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Ribbon.RibbonTabs.GeometryTab"
+				id="71a3f076972b49c1ba703cfb52bc2875"
+				timeout="100000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Geometry\DrawLayer.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.598"
+			timeRelativeToTestModuleStartTime="00:09.598"
+			timeWallClock="09:51:21"
+			time="00:09.598"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DGeoFlow.Ribbon.RibbonTabs.Buttons.Geometry.DrawLayerButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//menubar[@automationid='ActualRibbon']/list[@automationid='PART_RibbonTabControl']/container/list/button[@automationid='DrawLayerButton']"
+				itempath="button[@automationid='DrawLayerButton']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Ribbon.RibbonTabs.Buttons.Geometry.DrawLayerButton"
+				id="239d8f6760f347ac868485b088fd4687"
+				timeout="130000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Geometry\DrawLayer.cs"
+				codeline="98"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.066"
+			timeRelativeToTestModuleStartTime="00:10.066"
+			timeWallClock="09:51:21"
+			time="00:10.066"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (10,-20).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.067"
+			timeRelativeToTestModuleStartTime="00:10.067"
+			timeWallClock="09:51:21"
+			time="00:10.067"
+			level="Info"
+			category="Mouse">
+			<message>
+				Selected 'DGeoFlow.MListboxItem'.
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.273"
+			timeRelativeToTestModuleStartTime="00:10.273"
+			timeWallClock="09:51:21"
+			time="00:10.273"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (10,15).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.382"
+			timeRelativeToTestModuleStartTime="00:10.382"
+			timeWallClock="09:51:21"
+			time="00:10.382"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (35,15).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.491"
+			timeRelativeToTestModuleStartTime="00:10.491"
+			timeWallClock="09:51:22"
+			time="00:10.491"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (60,0).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.597"
+			timeRelativeToTestModuleStartTime="00:10.597"
+			timeWallClock="09:51:22"
+			time="00:10.597"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (90,0).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.982"
+			timeRelativeToTestModuleStartTime="00:10.982"
+			timeWallClock="09:51:22"
+			time="00:10.982"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DGeoFlow.Ribbon.RibbonTabs.Buttons.Geometry.LayerSelectButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//menubar[@automationid='ActualRibbon']/list[@automationid='PART_RibbonTabControl']/container/list/button[@automationid='LayerSelectButton']"
+				itempath="button[@automationid='LayerSelectButton']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Ribbon.RibbonTabs.Buttons.Geometry.LayerSelectButton"
+				id="701f018ed1824ac2b286cebde2624d55"
+				timeout="130000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Geometry\DrawLayer.cs"
+				codeline="103"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.454"
+			timeRelativeToTestModuleStartTime="00:11.454"
+			timeWallClock="09:51:23"
+			time="00:11.454"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (10,-20).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.454"
+			timeRelativeToTestModuleStartTime="00:11.454"
+			timeWallClock="09:51:23"
+			time="00:11.454"
+			level="Info"
+			category="Mouse">
+			<message>
+				Selected 'DGeoFlow.MListboxItem'.
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.670"
+			timeRelativeToTestModuleStartTime="00:11.670"
+			timeWallClock="09:51:23"
+			time="00:11.670"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (10,15).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.815"
+			timeRelativeToTestModuleStartTime="00:11.815"
+			timeWallClock="09:51:23"
+			time="00:11.815"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (35,15).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.947"
+			timeRelativeToTestModuleStartTime="00:11.947"
+			timeWallClock="09:51:23"
+			time="00:11.947"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (60,0).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.062"
+			timeRelativeToTestModuleStartTime="00:12.062"
+			timeWallClock="09:51:23"
+			time="00:12.062"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (90,0).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.732"
+			timeRelativeToTestModuleStartTime="00:12.732"
+			timeWallClock="09:51:24"
+			time="00:12.732"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (50,-10).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.733"
+			timeRelativeToTestModuleStartTime="00:12.733"
+			timeWallClock="09:51:24"
+			time="00:12.733"
+			level="Info"
+			category="Mouse">
+			<message>
+				Selected 'DGeoFlow.MListboxItem'.
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.939"
+			timeRelativeToTestModuleStartTime="00:12.939"
+			timeWallClock="09:51:24"
+			time="00:12.939"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DGeoFlow.Ribbon.RibbonTabs.MaterialsTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//menubar[@automationid='ActualRibbon']/list[@automationid='PART_RibbonTabControl']/text[@text='Materials']"
+				itempath="text[@text='Materials']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Ribbon.RibbonTabs.MaterialsTab"
+				id="9f46ed8ce58f42368624d5aed5548dac"
+				timeout="100000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\AssignMaterial.cs"
+				codeline="106"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.439"
+			timeRelativeToTestModuleStartTime="00:13.439"
+			timeWallClock="09:51:25"
+			time="00:13.439"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (50,-10).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.440"
+			timeRelativeToTestModuleStartTime="00:13.440"
+			timeWallClock="09:51:25"
+			time="00:13.440"
+			level="Info"
+			category="Mouse">
+			<message>
+				Selected 'DGeoFlow.MListboxItem'.
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.686"
+			timeRelativeToTestModuleStartTime="00:13.686"
+			timeWallClock="09:51:25"
+			time="00:13.686"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DGeoFlow.Ribbon.RibbonTabs.Buttons.Materials.MaterialsButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//menubar[@automationid='ActualRibbon']/list[@automationid='PART_RibbonTabControl']/container/list/button[@automationid='MaterialsButton']"
+				itempath="button[@automationid='MaterialsButton']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Ribbon.RibbonTabs.Buttons.Materials.MaterialsButton"
+				id="57b71c5ebd0341db851192781f3cca70"
+				timeout="130000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\AssignMaterial.cs"
+				codeline="111"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.134"
+			timeRelativeToTestModuleStartTime="00:14.134"
+			timeWallClock="09:51:25"
+			time="00:14.134"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ContextMenu.MaterialListItem' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu//text[@caption='Embankment old']"
+				itempath=".//text[@caption=$MaterialName]"
+				fullname="D_GeoFlowRepository.ContextMenu.MaterialListItem"
+				id="fe32bfff388544b7a79475974dec7e2f"
+				timeout="60000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\AssignMaterial.cs"
+				codeline="114"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.915"
+			timeRelativeToTestModuleStartTime="00:14.915"
+			timeWallClock="09:51:26"
+			time="00:14.915"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text=$MaterialName) on item 'DGeoFlow.PropertyPanel.LabelTextBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//container[@automationid='PropertyPanelControl']//text[@automationid='LabelTextBox']"
+				itempath=".//text[@automationid='LabelTextBox']"
+				fullname="D_GeoFlowRepository.DGeoFlow.PropertyPanel.LabelTextBox"
+				id="2e1292e3a7bf4d41891ec75ebfcdd959"
+				timeout="70000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\AssignMaterial.cs"
+				codeline="117"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.738"
+			timeRelativeToTestModuleStartTime="00:15.738"
+			timeWallClock="09:51:27"
+			time="00:15.738"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'D_GeoFlowRepository.DGeoFlow.PropertyPanel.LabelTextBox' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//container[@automationid='PropertyPanelControl']//text[@automationid='LabelTextBox']"
+				itempath=".//text[@automationid='LabelTextBox']"
+				fullname="D_GeoFlowRepository.DGeoFlow.PropertyPanel.LabelTextBox"
+				id="2e1292e3a7bf4d41891ec75ebfcdd959"
+				timeout="70000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\AssignMaterial.cs"
+				codeline="118"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.849"
+			timeRelativeToTestModuleStartTime="00:15.849"
+			timeWallClock="09:51:27"
+			time="00:15.849"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (50,-10).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.851"
+			timeRelativeToTestModuleStartTime="00:15.851"
+			timeWallClock="09:51:27"
+			time="00:15.851"
+			level="Info"
+			category="Mouse">
+			<message>
+				Selected 'DGeoFlow.MListboxItem'.
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.066"
+			timeRelativeToTestModuleStartTime="00:16.066"
+			timeWallClock="09:51:27"
+			time="00:16.066"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DGeoFlow.Ribbon.RibbonTabs.MaterialsTab' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//menubar[@automationid='ActualRibbon']/list[@automationid='PART_RibbonTabControl']/text[@text='Materials']"
+				itempath="text[@text='Materials']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Ribbon.RibbonTabs.MaterialsTab"
+				id="9f46ed8ce58f42368624d5aed5548dac"
+				timeout="100000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\EvaluateMaterialDoesExist.cs"
+				codeline="106"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.464"
+			timeRelativeToTestModuleStartTime="00:16.464"
+			timeWallClock="09:51:28"
+			time="00:16.464"
+			level="Info"
+			category="Mouse">
+			<message>
+				Clicking on geometry editor at (50,-10).
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="144"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.466"
+			timeRelativeToTestModuleStartTime="00:16.466"
+			timeWallClock="09:51:28"
+			time="00:16.466"
+			level="Info"
+			category="Mouse">
+			<message>
+				Selected 'DGeoFlow.MListboxItem'.
+			</message>
+			<metainfo
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\GeometryEditor\DrawGeometryMethod.cs"
+				codeline="148"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.666"
+			timeRelativeToTestModuleStartTime="00:16.666"
+			timeWallClock="09:51:28"
+			time="00:16.666"
+			level="Info"
+			category="Validation">
+			<message>
+				Inspect if boundary was selected<br/>Validating AttributeEqual (Text='Material') on item 'DGeoFlow.PropertyPanel.PropertyPanelCaption'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//container[@automationid='PropertyPanelControl']//text[@automationid='PropertyPanelTitle']"
+				itempath=".//text[@automationid='PropertyPanelTitle']"
+				fullname="D_GeoFlowRepository.DGeoFlow.PropertyPanel.PropertyPanelCaption"
+				id="5aef77a685514365b1ed47841ed4085c"
+				timeout="70000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\EvaluateMaterialDoesExist.cs"
+				codeline="112"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.284"
+			timeRelativeToTestModuleStartTime="00:17.284"
+			timeWallClock="09:51:28"
+			time="00:17.284"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'D_GeoFlowRepository.DGeoFlow.PropertyPanel.PropertyPanelCaption' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//container[@automationid='PropertyPanelControl']//text[@automationid='PropertyPanelTitle']"
+				itempath=".//text[@automationid='PropertyPanelTitle']"
+				fullname="D_GeoFlowRepository.DGeoFlow.PropertyPanel.PropertyPanelCaption"
+				id="5aef77a685514365b1ed47841ed4085c"
+				timeout="70000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\EvaluateMaterialDoesExist.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.284"
+			timeRelativeToTestModuleStartTime="00:17.284"
+			timeWallClock="09:51:28"
+			time="00:17.284"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text=$MaterialName) on item 'DGeoFlow.PropertyPanel.LabelTextBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//container[@automationid='PropertyPanelControl']//text[@automationid='LabelTextBox']"
+				itempath=".//text[@automationid='LabelTextBox']"
+				fullname="D_GeoFlowRepository.DGeoFlow.PropertyPanel.LabelTextBox"
+				id="2e1292e3a7bf4d41891ec75ebfcdd959"
+				timeout="70000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\EvaluateMaterialDoesExist.cs"
+				codeline="115"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.057"
+			timeRelativeToTestModuleStartTime="00:18.057"
+			timeWallClock="09:51:29"
+			time="00:18.057"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'D_GeoFlowRepository.DGeoFlow.PropertyPanel.LabelTextBox' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']//container[@automationid='PropertyPanelControl']//text[@automationid='LabelTextBox']"
+				itempath=".//text[@automationid='LabelTextBox']"
+				fullname="D_GeoFlowRepository.DGeoFlow.PropertyPanel.LabelTextBox"
+				id="2e1292e3a7bf4d41891ec75ebfcdd959"
+				timeout="70000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\Materials\EvaluateMaterialDoesExist.cs"
+				codeline="116"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.905"
+			timeRelativeToTestModuleStartTime="00:23.905"
+			timeWallClock="09:51:35"
+			time="00:23.905"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'DGeoFlow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='DGeoFlowWindow']"
+				itempath="/form[@automationid='DGeoFlowWindow']"
+				fullname="D_GeoFlowRepository.DGeoFlow.Self"
+				id="5462baee58ee4141853cfb9e24910558"
+				timeout="10000"
+				codefile="C:\checkouts\D-GEO-Suite-DGeoFlow-GUI-Automated-Tests\D-Geo Flow\Recordings\General\CloseAUT.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
